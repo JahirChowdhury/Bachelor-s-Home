@@ -1,0 +1,50 @@
+*{
+	margin: 0 ;
+	padding: 0;
+}
+body{
+	color: black;
+}
+.right_content_wrapper{
+
+	height: 644px;
+}
+.meal_table{
+    padding: 10px 40px;
+    background: black;
+    color: white;
+    box-shadow: 14px 11px 20px 0px #081229;
+    font-family: '20_dbregular';
+    position: absolute;
+    width: 60%;
+
+}
+.dashboard_table{
+    padding: 10px 40px;
+    background: black;
+    color: white;
+    box-shadow: 14px 11px 20px 0px #081229;
+    font-family: '20_dbregular';
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.searchByMonth{
+	width: 160px;
+	    margin-top: -8px;
+}
+#searchMember{
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 50%;
+    float: right;
+}
+select {
+    height: 35px;
+}
+.error{
+
+    color: red;
+    visibility: hidden;
+    
+}
